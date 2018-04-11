@@ -20,6 +20,7 @@ public class DynamicWebTable {
 		if(name.contains("test2 test2")){ //i=6
 			//*[@id='vContactsForm']/table/tbody/tr[6]/td[1]/input
 			driver.findElement(By.xpath("//*[@id='vContactsForm']/table/tbody/tr["+i+"]/td[1]/input")).click();// clicks on check box
+		
 		}
 	}
 	
